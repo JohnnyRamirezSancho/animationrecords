@@ -1,0 +1,41 @@
+header {
+    min-width: 900px;
+    max-width: 1600px;
+    width:900px;
+    height:150px;
+    background-color:#0795e6;
+}
+
+/*WALT DISNEY LOGO SRC CLASS*/
+.walt-logo {
+    width: 140px;
+    padding:15px;
+    float:left;
+}
+
+/*DISNEY+ LOGO SRC CLASS*/
+.disney-plus {
+    width: 150px;
+    padding:30px;
+    float:left;
+}
+
+nav {
+    padding: 10px;
+    float:inline;
+}
+
+ol {
+
+    list-style-type: none;
+    display:inline-block;
+    margin:50px;
+}
+
+button {
+    width: 150px;
+    background-color: transparent;
+    border:transparent;
+}
+
+
