@@ -1,8 +1,9 @@
 body {
     width: 900px;
     margin: 0px auto;
-    
+
 }
+
 #detalle-pelicula {
     display: flex;
     flex-direction: row-reverse;
@@ -11,7 +12,46 @@ body {
 
 #texto-pelicula {
     width: 300px;
+}
+#texto-pelicula h2 {
+    margin: 0 0 15px 0;
+}
+#texto-pelicula p {
+    margin: 0% 0 30px 0;
+}
 
+#anadir-carrito {
+    background-color: #0795e6;
+    padding: 15px 0 0 0 ;
+}
+
+#anadir-carrito a {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#anadir-carrito span {
+    display: block;
+    width: 49px;
+    height: 49px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#anadir-carrito img {
+    width: 30px;
+}
+#anadir-carrito a p {
+    transition: all 0.4s;
+    padding: 0 0 1px 0;
+}
+#anadir-carrito a:hover p {
+    letter-spacing: 4px;
 }
 
 #imagen-pelicula {
@@ -22,12 +62,12 @@ body {
     width: 100%;
 }
 
-#imagen-miniaturas {
+#miniaturas {
     display: flex;
     justify-content: space-between;
 }
 
-#imagen-miniaturas img {
+#miniaturas img {
     width: 130px;
     height: 130px;
 }
