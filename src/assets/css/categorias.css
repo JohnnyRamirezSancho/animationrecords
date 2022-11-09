@@ -1,0 +1,27 @@
+.categories-ca {
+    position: relative;
+    display: grid;
+    float: left;
+    border:black 0.5px solid;
+    width: 446px;
+    height:auto;
+
+}
+
+.categories-ca img {
+    width: 444px;
+}
+
+.categories-ca h3 {
+    padding: 10px;
+    width: 430px;
+}
+
+.categories-ca p {
+    padding: 30px;
+    margin:-20px;
+    width: 430px;
+}
+
+
+
