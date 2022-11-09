@@ -1,0 +1,33 @@
+body {
+    width: 900px;
+    margin: 0px auto;
+    
+}
+#detalle-pelicula {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#texto-pelicula {
+    width: 300px;
+
+}
+
+#imagen-pelicula {
+    width: 590px;
+}
+
+#imagen-principal img {
+    width: 100%;
+}
+
+#imagen-miniaturas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagen-miniaturas img {
+    width: 130px;
+    height: 130px;
+}
