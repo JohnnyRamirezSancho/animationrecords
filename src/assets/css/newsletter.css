@@ -1,0 +1,40 @@
+.newsletter-area {
+    width:900px;
+    height:225px;;
+    background-color: rgb(103, 152, 250);
+
+}
+
+.newsletter-area h1 {
+    padding:43px;
+    margin:40px, -3px;
+    text-align: center;
+}
+
+.newsletter-area p {
+    margin:-60px;
+    padding: 3px;
+    text-align: center;
+}
+
+.newsletter-area button {
+    border:black 3px solid;
+    width:auto;
+    height:auto;
+    margin:80px;
+    padding:10px;
+}
+
+button:hover {
+    background-color: #0795e6;
+    color:white;
+}
+
+.input-area  {
+    margin:100px;
+}
+
+.input-area-2 {
+    float:inline-start;
+    margin:-3px
+}

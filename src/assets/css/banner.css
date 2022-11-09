@@ -1,0 +1,31 @@
+.banner-area {
+    width:900px;
+    height:225px;;
+    background-color: rgba(112, 255, 253, 0.913);
+
+}
+
+.banner-area h1 {
+    padding:43px;
+    margin:40px, -3px;
+    text-align: center;
+}
+
+.banner-area p {
+    margin:-60px;
+    padding: 3px;
+    text-align: center;
+}
+
+.banner-area button {
+    border:black 3px solid;
+    width:auto;
+    height:auto;
+    margin:80px;
+    padding:10px;
+}
+
+button:hover {
+    background-color: #0795e6;
+    color:white;
+}

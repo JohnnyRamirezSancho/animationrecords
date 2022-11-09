@@ -1,0 +1,21 @@
+/*This file contains CSS Custom style for
+body & html parameters on a single css doc.
+Later, imported to styles.css as @import*/
+/*Greetings; Davisito*/
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 900px;
+    height: auto;
+}
+
