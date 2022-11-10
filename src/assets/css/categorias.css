@@ -1,28 +1,32 @@
-.categories-ca {
-    position: relative;
-    display: grid;
-    float: left;
-    border:black 0.5px solid;
-    width: 446px;
-    height:auto;
+div.todas-categorias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.categories-ca {
+    width: 288px;
+    box-sizing: border-box;
+    border: 1px solid #333333;
 }
 
 .categories-ca img {
-    width: 444px;
+    width: 100%;
 }
 
-.categories-ca h3 {
-    margin-top:5px; /*ADDS MARGIN SPACES TO TOP (UPPER)*/
-    padding: 10px;
-    width: 430px;
+.categories-ca h3{
+    padding: 0;
+    margin: 0;
 }
 
+.categories-ca h3 a{
+    text-align: left;
+
+}
+
+.categories-ca h3,
 .categories-ca p {
-    padding:10px;
-    margin-top:-25px;
-    margin-bottom: 3px;
-    width: 430px;
+    padding: 0 7px 0 7px;
 }
 
 

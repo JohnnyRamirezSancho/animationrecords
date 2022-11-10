@@ -3,15 +3,6 @@ body & html parameters on a single css doc.
 Later, imported to styles.css as @import*/
 /*Greetings; Davisito*/
 
-html,
-body {
-    height: 100%;
-}
-
-html {
-    margin: auto;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     width: 900px;
@@ -21,13 +12,11 @@ body {
 
 p {
     font-weight: 700;
-
 }
 
 h1 {
     font-size: 96px;
     font-weight: 800;
-
 }
 
 h2 {
