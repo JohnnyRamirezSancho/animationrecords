@@ -12,6 +12,8 @@ div.todas-categorias {
 
 .categories-ca img {
     width: 100%;
+    object-fit: cover;
+    height: 200px;
 }
 
 .categories-ca h3{
@@ -21,6 +23,8 @@ div.todas-categorias {
 
 .categories-ca h3 a{
     text-align: left;
+    padding:0;
+    margin:0;
 
 }
 
