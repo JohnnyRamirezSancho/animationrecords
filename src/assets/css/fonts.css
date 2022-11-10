@@ -1,3 +1,48 @@
+
+/*For typo only*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+/*For header buttons */
+header button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:white;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:white;
+
+}
+
+.categories-ca h3 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+
+}
+
+.categories-ca p {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+.banner-area button {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+
+.banner-area, .newsletter-area h1 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+}
+
+h1 * {
+    
+=======
 /*For typo only*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');

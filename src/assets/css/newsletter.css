@@ -1,3 +1,4 @@
+
 .newsletter-area {
     margin-bottom: 25px;
 }
@@ -30,4 +31,37 @@ form#newsletter input[type=submit]:hover {
     background: #ffffff;
     border: 1px solid #0795e6;
     letter-spacing: 2px;
+=======
+.newsletter-area {
+    margin-bottom: 25px;
+}
+
+form#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+form#newsletter input[type=email] {
+    width: 300px;
+    border-radius: 7px;
+    padding: 3px 4px;
+    margin-bottom: 10px;
+}
+form#newsletter input[type=submit] {
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 7px;
+    color: #ffffff;
+    background: #0795e6;
+    border: 1px solid #0795e6;
+    transition: all 0.4s;
+}
+
+form#newsletter input[type=submit]:hover {
+    color: #0795e6;
+    background: #ffffff;
+    border: 1px solid #0795e6;
+
 }

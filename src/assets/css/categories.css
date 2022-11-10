@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body{
@@ -35,3 +36,49 @@ div.categorias-peliculas h3{
     color: #0795e6;
 
 }
+=======
+
+.categories-area {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:3px;
+    width: auto;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+.categorias-peliculas {
+    border:gray 2px solid;
+    width:200px;
+    position:relative;
+    display:grid;
+    float:left;
+    height:fit-content;
+}
+
+.categorias-peliculas img {
+    width: 200px;
+=======
+.categories-area {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:3px;
+    width: auto;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+.categorias-peliculas {
+    border:gray 2px solid;
+    width:200px;
+    position:relative;
+    display:grid;
+    float:left;
+    height:fit-content;
+}
+
+.categorias-peliculas img {
+    width: 200px;
+
+}
+
