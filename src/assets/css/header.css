@@ -1,17 +1,24 @@
-
 header {
     position:relative;
+}
+
+header .fondo-header {
     background-color:#0795e6;
     height: 250px;
 }
 
-.walt-logo {
+header .walt-logo {
     width: 321px;
     padding:15px;
     position:absolute;
 }
 
-ol {
+header h1 {
+    margin: 0px 0px 0px 370px;
+
+}
+
+header ol {
     display:flex;
     gap: 15px;
     padding:0;
@@ -20,12 +27,8 @@ ol {
     margin-top: 40px;
 }
 
-header h1 {
-    margin: 0px 0px 0px 370px;
 
-}
-
-li, a {
+header li, header li a {
     width:167px;
     height:39px;
     line-height:39px;
@@ -38,210 +41,50 @@ li, a {
     transition: all 0.4s;
 }
 
-li a:hover {
+header li a:hover {
     color:#333333;
     letter-spacing: 3px;
 }
 
-.shopping-cart {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
-    background-color: white;
+header li a.activo {
+    color:#333333;
+}
+
+header .shopping-cart {
     position:absolute;
-    bottom: 40px;
+    bottom: 125px;
     right: 15px;
-    text-align: center;
-
 }
 
-.shopping-cart a {
+header .shopping-cart a {
     width: 83px;
     height: 83px;
-    border-radius: 50%;
-    background-color: white;
-    margin:auto;
-}
-
-.shopping-cart a:hover{
-    background-color: #0795e6;
-    border: 2px solid #333333;
-}
-
-.shopping-cart a:hover img{
-    filter: grayscale(100%);
-    filter: brightness(0);
-}
-
-.shopping-cart a img {
-    width: 50px;
-    margin: auto;
-
-    margin-top: 6px;
-    transition: all 0.4s;
-}
-
-
-=======
-
-header {
-    position:relative;
-    background-color:#0795e6;
-    height: 250px;
-}
-
-.walt-logo {
-    width: 321px;
-    padding:15px;
-    position:absolute;
-}
-
-ol {
-    display:flex;
-    gap: 15px;
-    padding:0;
-    list-style-type: none;
-    margin-left: 370px;
-    margin-top: 40px;
-}
-
-header h1 {
-    margin: 0px 0px 0px 370px;
-
-}
-
-li, a {
-    width:167px;
-    height:39px;
-    line-height:39px;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    color:#0795e6;
-    font-weight: 700;
     display: block;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #fff;
     transition: all 0.4s;
 }
 
-li a:hover {
-    color:#333333;
-    letter-spacing: 3px;
-}
-
-.shopping-cart {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
-    background-color: white;
-    position:absolute;
-    bottom: 40px;
-    right: 15px;
-    text-align: center;
-
-}
-
-.shopping-cart a {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
-    background-color: white;
-    margin:auto;
-}
-
-.shopping-cart a:hover{
+header .shopping-cart a:hover {
     background-color: #0795e6;
     border: 2px solid #333333;
 }
 
-.shopping-cart a:hover img{
+header .shopping-cart a:hover img {
     filter: grayscale(100%);
     filter: brightness(0);
 }
 
-.shopping-cart a img {
+header .shopping-cart a img {
     width: 50px;
-    margin: auto;
     margin-top: 6px;
-    transition: all 0.4s;
-}
-=======
-header {
-    position:relative;
-    background-color:#0795e6;
-    height: 250px;
-}
-
-.walt-logo {
-    width: 321px;
-    padding:15px;
-    position:absolute;
-}
-
-ol {
-    display:flex;
-    gap: 15px;
-    padding:0;
-    list-style-type: none;
-    margin-left: 370px;
-    margin-top: 40px;
-}
-
-header h1 {
-    margin: 0px 0px 0px 370px;
-
-}
-
-li, a {
-    width:167px;
-    height:39px;
-    line-height:39px;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    color:#0795e6;
-    font-weight: 700;
-    display: block;
+    margin-left: 15px;
     transition: all 0.4s;
 }
 
-li a:hover {
-    color:#333333;
-    letter-spacing: 3px;
-}
-
-.shopping-cart {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
-    background-color: white;
-    position:absolute;
-    bottom: 40px;
-    right: 15px;
-    text-align: center;
-
-}
-
-.shopping-cart a {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
-    background-color: white;
-    margin:auto;
-}
-
-.shopping-cart a:hover{
-    background-color: #0795e6;
-    border: 2px solid #333333;
-}
-
-.shopping-cart a:hover img{
-    filter: grayscale(100%);
-    filter: brightness(0);
-}
-
-.shopping-cart a img {
-    width: 50px;
-    margin: auto;
-    margin-top: 6px;
-    transition: all 0.4s;
+header p.migas-de-pan {
+    height: 85px;
+    line-height: 85px;
+    margin-left: 55px;
 }

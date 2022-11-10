@@ -1,84 +1,43 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-body{
-    width: 900px;
-    margin: auto;
-    font-family: 'open sans';
-    color: #333;
-}
 div#todas-peliculas{
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
 }
+
 div.categorias-peliculas{
     width: 170px;
     border: 1px solid #333;
     margin: 0 0 15px 0;
-
-
 }
+
 div.categorias-peliculas img{
-    width: 170px;
-
+    width: 168px;
+    height: auto;
+    object-fit: cover;
 }
+
+div.categorias-peliculas a {
+    padding: 0;
+    margin: 0;
+}
+
 div.categorias-peliculas h3,
-div.categorias-peliculas p
-{
-    padding: 0 10px;
+div.categorias-peliculas a h3 {
+    padding: 15px;
+    transition: all 0.4s;
 }
-div.categorias-peliculas h3{
-    font-size: 18px;
+
+div.categorias-peliculas a:hover h3 {
+    letter-spacing: 3px;
+}
+
+div.categorias-peliculas a p,
+div.categorias-peliculas p {
+    padding: 0 15px 15px 15px;
+    color: #333;
+    transition: all 0.4s;
+}
+
+div.categorias-peliculas a:hover p {
     color: #0795e6;
-
 }
-=======
-
-.categories-area {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding:3px;
-    width: auto;
-    height: 80px;
-    background-color: cornflowerblue;
-}
-
-.categorias-peliculas {
-    border:gray 2px solid;
-    width:200px;
-    position:relative;
-    display:grid;
-    float:left;
-    height:fit-content;
-}
-
-.categorias-peliculas img {
-    width: 200px;
-=======
-.categories-area {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding:3px;
-    width: auto;
-    height: 80px;
-    background-color: cornflowerblue;
-}
-
-.categorias-peliculas {
-    border:gray 2px solid;
-    width:200px;
-    position:relative;
-    display:grid;
-    float:left;
-    height:fit-content;
-}
-
-.categorias-peliculas img {
-    width: 200px;
-
-}
-
