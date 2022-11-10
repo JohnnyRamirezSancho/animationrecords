@@ -4,6 +4,50 @@ body & html parameters on a single css doc.
 Later, imported to styles.css as @import*/
 /*Greetings; Davisito*/
 
+html,
+body {
+    height: 100%;
+}
+
+html {
+    margin: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 900px;
+    margin: auto;
+    color: #333333;
+}
+
+p {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+=======
+
+/*This file contains CSS Custom style for
+body & html parameters on a single css doc.
+Later, imported to styles.css as @import*/
+/*Greetings; Davisito*/
+
 body {
     font-family: 'Open Sans', sans-serif;
     width: 900px;
@@ -66,5 +110,6 @@ h3 {
 
 a {
     text-decoration: none;
+
 
 }
