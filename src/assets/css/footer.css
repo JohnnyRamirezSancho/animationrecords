@@ -1,17 +1,8 @@
 footer {
-    width:900px;
-    height: 200px;
+    height: 140px;
     background-color: #0795e6;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.disney-plus-ft {
-    width: 150px;
-    margin: 20px;
-    padding:30px;
-    float:inline-start;
-}
-
-footer p {
-    padding:80px;
-    float:right;
 }
