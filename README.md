@@ -43,3 +43,8 @@ HERRAMIENTAS
 FIGMA: scketh, Mockup, Prototipo
 TRELLO: user stories
 VISUALCODE: html y css
+GITHUB
+
+PROTOTIPO
+https://github.com/davisitomr/animationrecords/blob/main/src/assets/img/prototipo%20animation%20records.PNG
+
