@@ -1,3 +1,4 @@
+
 @import "fonts.css"; /*Fonts stylesheet (CSS Class)*/
 @import "global.css";
 @import "header.css";
@@ -8,3 +9,15 @@
 @import "categories.css"; /*For category page on categories.html*/
 @import "mainframe-web.css";
 @import "detalle-pelicula.css";
+=======
+@import "fonts.css"; /*Fonts stylesheet (CSS Class)*/
+@import "global.css";
+@import "header.css";
+@import "footer.css";
+@import "banner.css";
+@import "newsletter.css";
+@import "categorias.css"; /*For category grid on index.html*/
+@import "categories.css"; /*For category page on categories.html*/
+@import "mainframe-web.css";
+@import "detalle-pelicula.css";
+
