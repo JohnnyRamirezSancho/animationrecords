@@ -1,3 +1,4 @@
+
 .categories-area {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -18,4 +19,26 @@
 
 .categorias-peliculas img {
     width: 200px;
+=======
+.categories-area {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:3px;
+    width: auto;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+.categorias-peliculas {
+    border:gray 2px solid;
+    width:200px;
+    position:relative;
+    display:grid;
+    float:left;
+    height:fit-content;
+}
+
+.categorias-peliculas img {
+    width: 200px;
+
 }
