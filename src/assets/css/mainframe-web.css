@@ -4,6 +4,10 @@
     border: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
     body {
     font-family: 'Open Sans', sans-serif;
     width: 900px;
